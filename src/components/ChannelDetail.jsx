@@ -32,7 +32,7 @@ const ChannelDetail = () => {
       </Box>
       
       <Box display="flex" p="2">
-          <Box sx={{mr: {sm: '130px'}}} />
+          <Box sx={{mr: { xs: '4%', sm: '25%', md: '15%'}}} />
           <Videos videos={videos} />
       </Box>
     </Box>
