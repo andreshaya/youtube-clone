@@ -6,8 +6,9 @@ const Sidebar = ({selectedCategory, setSelectedCategory}) => (
     <Stack
       direction="row"
       sx={{
-        overflow: "auto",
-        height: {sx: 'auto', md: '95%'},
+        overflowY: "scroll",
+        overflowX: "hidden",
+        height: {sx: 'auto', md: '100%'},
         flexDirection: {md: 'column'},
       }}
     >
@@ -17,14 +18,14 @@ const Sidebar = ({selectedCategory, setSelectedCategory}) => (
           style={{
             background: category.name === selectedCategory && '#FC1503',
             color: 'white',
-            width: '90%'
+            width: '95%'
           }}
           key={category.name}
         >
           <span 
           style={{
             color: category.name === selectedCategory ? 'white': 'red',
-            marginRight: '20px'
+            marginRight: '15px'
           }}
           >
             {category.icon}
