@@ -4,7 +4,7 @@
 
 <h3> Channel Page </h3>
 
-<img src="/imgs/Second.png" width="100%" height="80%" />
+<img src="/imgs/Channel.gif" width="100%" height="80%" />
 
 <h3> Video Page </h3>
 
